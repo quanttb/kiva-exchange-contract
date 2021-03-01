@@ -1,0 +1,22 @@
+{
+  "name": "kiva-exchange-contract",
+  "version": "1.0.0",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.2",
+    "fs": "0.0.1-security",
+    "ganache-cli": "^6.12.2",
+    "truffle": "^5.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test",
+    "test:dev": "truffle test --show-events",
+    "start:dev": "ganache-cli",
+    "migrate:dev": "truffle migrate --network dev",
+    "console:dev": "truffle console --network dev",
+    "migrate:bsc": "truffle migrate --network bsc_testnet",
+    "console:bsc": "truffle console --network bsc_testnet"
+  },
+  "author": "",
+  "license": "MIT"
+}
