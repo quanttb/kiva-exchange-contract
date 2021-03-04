@@ -13,7 +13,7 @@ Then run:
 yarn install
 ```
 
-Get more ETH for testing: [LINK](https://testnet.binance.org/faucet-smart)
+Get more BNB for testing: [LINK](https://testnet.binance.org/faucet-smart)
 
 BSC Testnet Explorer: [LINK](https://testnet.bscscan.com/)
 
