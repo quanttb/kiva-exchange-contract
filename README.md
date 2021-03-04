@@ -7,6 +7,7 @@ The following prerequisites are required to be installed on your system:
 - NodeJS 12
 - Yarn
 - Metamask (optional)
+- [Private chain](https://github.com/quanttb/bsc-private-chain) (optional)
 
 Then run:
 ```sh
@@ -47,6 +48,14 @@ yarn run console:dev
 yarn run migrate:bsc
 
 yarn run console:bsc
+```
+
+### Deploy to private network
+
+```sh
+yarn run migrate:localhost
+
+yarn run console:localhost
 ```
 
 ### Console commands
