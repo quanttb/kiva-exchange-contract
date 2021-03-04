@@ -20,7 +20,7 @@ interface IERC20 {
 contract Kiva is IERC20 {
 
   string public constant name = "Kiva";
-  string public constant symbol = "KIV";
+  string public constant symbol = "KIVA";
   uint8 public constant decimals = 18;
 
 
